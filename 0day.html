@@ -29,7 +29,7 @@
     }
     .header-buttons {
       position: absolute;
-      left: 20px;
+      left: 5%; /* наааааамного левее */
       display: flex;
       gap: 10px;
     }
@@ -87,7 +87,6 @@
       font-size: 0.9em;
       color: #888;
     }
-    /* Modal styles */
     .modal {
       display: none;
       position: fixed;
@@ -121,7 +120,6 @@
     .close:hover {
       color: #ff5555;
     }
-    /* Кнопка "Тыкни" красная и шире остальных */
     button#specialBtn {
       background-color: #ff4444;
       color: #fff;
@@ -131,7 +129,7 @@
       cursor: pointer;
       font-weight: bold;
       font-size: 1.1em;
-      width: 150px; /* на 50% шире остальных (обычные ~100px) */
+      width: 150px;
       margin: 20px auto 40px;
       display: block;
       transition: background-color 0.3s;
@@ -167,7 +165,6 @@
     &copy; 2025 0DAY Contest — Все права защищены
   </footer>
 
-  <!-- Modal -->
   <div id="myModal" class="modal">
     <div class="modal-content">
       <span class="close" onclick="closeModal()">&times;</span>
